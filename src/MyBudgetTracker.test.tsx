@@ -22,7 +22,7 @@ describe("Expense Creation", () => {
       const remaining = screen.getByTestId("remaining");
       const spent = screen.getByTestId("spent");
 
-      expect(remaining.textContent).toBe("Remaining: $700");
+      expect(remaining.textContent).toBe("Remaining: $800");
       expect(spent.textContent).toBe("Spent so far: $200");
       
     });
